@@ -1,0 +1,120 @@
+.egg{
+  margin: 0 auto;
+  width: 95%;
+  justify-content: space-between;
+  display: flex;
+}
+.egg ul{
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+  list-style: none;
+}
+.egg li{
+  margin-top: 10px;
+  font-weight: bold;
+}
+.egg > img{
+width: 100px;
+height: 100px;
+}
+.box{
+  right: 0;
+  left: 0;
+  border: 5px solid yellow;
+}
+.box0{
+  background-image: url(./imges/images.jpg);
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.yes{
+  display: flex;
+  flex-direction: row;
+  width: 25%;
+  justify-content: space-around;
+  align-items: start;
+}
+.yes a{
+  text-decoration: none;
+}
+.yes p{
+  color:olive;
+  font-size: 20px;
+}
+.all{
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 90%;
+}
+.all p{
+  font-weight: bold;
+}
+.box1 img{
+  
+  border-radius: inherit;
+  width: 100%;
+  height: 200px;
+  
+}
+.box1{
+  margin: 30px 0;
+  box-sizing: border-box;
+  border-radius: 20%;
+  text-align: center;
+  width: 20%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 3px 3px 3px #000;
+}
+.hi{
+  display: flex;
+  margin: 0 auto;
+  width: 20%;
+  justify-content: space-between;
+}
+.oil{
+  display: flex;
+}
+.big{
+  padding-left: 30px;
+}
+.big p{
+  font-family: 'Dancing Script', cursive;
+}
+.bad{
+  text-align: center;
+}
+.bad > p{
+  margin-top: -10px;
+  font-family: 'Dancing Script', cursive;
+}
+.bad img{
+  margin: 10px 0;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.ok{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.ok i{
+  color: antiquewhite;
+  font-size: 24px;
+  padding-right: 30px;
+}
+
+
+.bob{
+  display: flex;
+  justify-content: space-between;
+  background-color: greenyellow;
+}
